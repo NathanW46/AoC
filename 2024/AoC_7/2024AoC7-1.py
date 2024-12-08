@@ -26,19 +26,7 @@ def evaluate(nums, ops):
     return result
 
 
-# def evaluate(nums, ops):
-#     expression = [x for pair in zip(nums, ops) for x in pair]
-#     expression.append(nums[-1])
-#     expression = ''.join(expression)
-#     print(expression)
-#     return eval(expression)
-
-
-data
-total = 0
 result = 0
-
-
 
 
 for i,row in enumerate(data):

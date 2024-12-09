@@ -53,7 +53,5 @@ def process(files, free):
     return data
 
 data = process(files, free)
-print(data)
 data = reorder(data)
-print(data)
 print(get_checksum(data))

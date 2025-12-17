@@ -47,8 +47,7 @@ filepath = os.path.join(os.getcwd(), f'{year}/AoC_{day}/2024AoC{day}_sample.txt'
 
     # Create the files in the directory
     files = [
-        f"{year}AoC{day}-1.py",
-        f"{year}AoC{day}-2.py",
+        f"{year}AoC{day}.py",
         f"{year}AoC{day}_input.txt",
         f"{year}AoC{day}_sample.txt"
     ]

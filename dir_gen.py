@@ -35,14 +35,13 @@ def create_aoc_files():
 
     # header to insert in py files
     header = f"""import os
-from datetime import datetime
 import numpy as np
 import re
 
 year = {year}
 day = {day}""" + """
-filepath = os.path.join(os.getcwd(), f'{year}/AoC_{day}/2024AoC{day}_sample.txt')
-# filepath = os.path.join(os.getcwd(), f'{year}/AoC_{day}/2024AoC{day}_input.txt')"""
+filepath = os.path.join(os.getcwd(), f'{year}/AoC_{day}/{year}AoC{day}_sample.txt')
+# filepath = os.path.join(os.getcwd(), f'{year}/AoC_{day}/{year}AoC{day}_input.txt')"""
 
 
     # Create the files in the directory
